@@ -1,40 +1,66 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
 
-    <link rel="stylesheet" href="css/style.css">
-    <title>Microsoft Official Homepage</title>
-</head>
-<body>
-    <div class="container">
-    <!--Nav-->
-    <nav class="main-nav">
-        <img src="img/logo.png" alt="Microsoft" class="logo">
-        <ul class="main-menu">
-            <li><a href="#">Office</a></li>
-            <li><a href="#">Windows</a></li>
-            <li><a href="#">Surface</a></li>
-            <li><a href="#">Xbox</a></li>
-            <li><a href="#">Deals</a></li>
-            <li><a href="#">Support</a></li>
-        </ul>
-        <ul class="right-menu">
-            <li>
-                <a href="#">
-                    <i class="fas fa-search"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-    </div>
-</body>
-</html>
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fff;
+    color:#000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+a {
+    color: #262626;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    
+}
+
+.container {
+    width:90%;
+    max-width: 1100px;
+    margin:auto;
+}
+
+/*Nav*/
+
+.main-nav {
+    display: flex; /*alighned in horizontal row*/
+    align-items: center;
+    justify-content: space-between;
+    height: 60%;
+    padding:20px 0;
+    font-size: 13px;
+}
+
+.main-nav .logo {
+    width: 110px; /*make logo smaller*/
+}
+
+.main-nav ul {
+    display: flex;
+}
+
+.main-nav ul li {
+    padding: 0 10px;
+    
+}
+.main-nav ul li a {
+    padding-bottom: 2px;
+}
+
+.main-nav ul li a:hover{
+    border-bottom: 2px solid #262626;
+
+}
+
+.main-nav ul.main-menu {
+    flex:1; /*too close to logo*/
+    margin-left: 20px;
+}
