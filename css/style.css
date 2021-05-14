@@ -93,3 +93,11 @@ ul {
     padding-bottom: 50px;
     margin-bottom: 20px; /*pushes btn + header up a bit*/
 }
+
+.showcase h2, .showcase p{
+    margin-bottom: 10px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
+}
