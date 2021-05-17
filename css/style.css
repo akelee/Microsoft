@@ -147,6 +147,7 @@ margin-left: 10px;
     height: 350px;
     width: 100%;
     background: url('../img/xbox.png') no-repeat center center/cover;
+    margin-bottom: 20px;
 }
 
 .xbox .content {
@@ -156,4 +157,17 @@ margin-left: 10px;
 
 .xbox p {
     margin: 10px 0 20px;
+}
+
+/*Carbon*/
+
+.carbon {
+    height: 350px;
+    width: 100%;
+    background: url('../img/carbon.jpg') no-repeat /*bg repeat property*/ center center/*bg posiition*//cover/*bg size*/;
+}
+
+.carbon .content {
+    width: 55%;
+    padding: 100px 0 0 30px;
 }
