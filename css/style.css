@@ -237,3 +237,20 @@ margin-left: 10px;
     justify-content: space-between;
 
 }
+
+.footer div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer ul {
+    display: flex; /*goes in a row*/
+    flex-wrap: wrap;
+    
+}
+
+.footer li {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
