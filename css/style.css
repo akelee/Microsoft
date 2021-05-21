@@ -244,6 +244,10 @@ margin-left: 10px;
     align-items: center;
 }
 
+.footer div i {
+    margin-right: 10px;
+}
+
 .footer ul {
     display: flex; /*goes in a row*/
     flex-wrap: wrap;
@@ -254,3 +258,5 @@ margin-left: 10px;
     margin-right: 30px;
     margin-bottom: 20px;
 }
+
+.
