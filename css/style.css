@@ -271,4 +271,12 @@ margin-left: 10px;
     .xbox .content h2 {
         margin-bottom: 20px;
     }
+
+    .carbon .content {
+        width: 85%;
+    }
+
+    .links .links-inner {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
