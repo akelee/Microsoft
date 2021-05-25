@@ -282,7 +282,11 @@ margin-left: 10px;
 
     @media(max-width:500px) {
         .home-cards {
-            grid-template-columns: repeat(2, 1fr);
-        }
+            grid-template-columns: 1fr;
+        
+    }
+
+    .links .links-inner {
+        grid-template-columns: 1fr;
     }
  }
