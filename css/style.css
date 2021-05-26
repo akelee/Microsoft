@@ -74,6 +74,11 @@ ul {
     display: none;
 }
 
+.menu-btn {
+    cursor: pointer;
+
+}
+
 .btn {
     cursor: pointer;
     display: inline-block;
