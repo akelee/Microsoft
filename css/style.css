@@ -269,7 +269,11 @@ margin-left: 10px;
     .menu-btn {
         display: block;
     }
-    
+
+    .menu-btn:hover {
+        opacity: 0.5;
+    }
+
     .home-cards {
         grid-template-columns: repeat(2, 1fr);
     }
